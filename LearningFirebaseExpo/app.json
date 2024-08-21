@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "my-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": ["@react-native-google-signin/google-signin"],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.talha_sheikh.myapp",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleURLTypes":[
+          {
+            "CFBundleURLSchemes": ["com.googleusercontent.apps.395283591738-7hci0m2n9qe8df7rtldsddo99a4akk5f"]
+          }
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.talha_sheikh.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

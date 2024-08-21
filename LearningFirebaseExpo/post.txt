@@ -1,0 +1,37 @@
+🌟 Looking for Frontend Developer Opportunities 🌟
+
+Hi LinkedIn community!
+
+I’m excited to announce that I’m actively seeking a Frontend Developer position where I can use my skills and experience to contribute to innovative projects. I would be very happy to contribute to your team and help drive your success. With a strong background in frontend development, I’m passionate about creating user-friendly and visually appealing web and mobile applications.
+
+About Me:
+
+Name: Talha Khurram
+
+Education: Completed my education ( 2nd year ) at Punjab Group of Colleges, Lahore. 
+
+Experience: I have about 2 years of experience specializing in frontend web development and mobile applications development. I have worked on diverse projects ranging from portfolio websites to complex mobile applications, ensuring responsive design and dynamic user experiences.
+
+Skills: I have 2 years of self experience using a wide range of skills, including HTML, CSS, JavaScript, React.js, React Native, Bootstrap, Material UI, Expo, Redux, GIT, GitHub . With these skills, I’ve used these skills to craft diverse web and mobile solutions that provide engaging and effective user experiences 
+
+Interests: I’m passionate about coding, exploring new technologies, and learning backend development to become a full-stack developer.
+
+Projects:
+
+WhatsApp Clone: Developed using React Native, this app replicates WhatsApp’s core features like messaging, archiving, and pinning chats, with a focus on a familiar UI and seamless user experience.
+
+E-commerce Website: Built with React.js and Bootstrap, this site offers product filtering, user authentication, and a dynamic interface designed for an engaging shopping experience.
+
+Portfolio Website: Created using React.js and Material UI, this portfolio showcases my work with smooth navigation, animations, and project previews to highlight my skills and experience.
+
+Portfolio:
+Check out my portfolio for a detailed look at my work and projects: https://talha-khurram.netlify.app/
+
+Resume:
+Here’s an image of my resume for a quick overview: 
+
+I’m enthusiastic about connecting with companies and teams that are looking for a dedicated and skilled frontend developer. I’m eager to contribute to meaningful projects and grow my career as a Frontend Developer.
+
+Feel free to reach out to me through LinkedIn or via my portfolio. Let’s connect and discuss how I can add value to your team!
+
+#frontenddeveloper #reactjs #reactnative #webdevelopment #opentowork #hiring #javascript #portfolio
