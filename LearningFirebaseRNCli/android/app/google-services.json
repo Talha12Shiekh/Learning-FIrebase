@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "356220666721",
+    "project_id": "firstclifirebaseproject",
+    "storage_bucket": "firstclifirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356220666721:android:cd8bded8ff584490abfb20",
+        "android_client_info": {
+          "package_name": "com.learningfirebaserncli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH_hsgEc4WF87MymUtQIPyEqF69fHlB0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
