@@ -1,4 +1,10 @@
-import Main from './LearningFireStore/TodoApp';
+import Main from "./LearningAuthentication/FacebookAuth";
+
+// import com.facebook.FacebookSdk;
+// import com.facebook.appevents.AppEventsLogger;
+
+
+
 
 export default function App() {
 
@@ -7,3 +13,4 @@ export default function App() {
   );
 }
 
+// https://firstclifirebaseproject.firebaseapp.com/__/auth/handler
