@@ -25,6 +25,8 @@ const GoggleAuth = () => {
 
       // Sign-in the user with the credential
       return auth().signInWithCredential(googleCredential);
+      // const firebaseUserCredential = await auth().currentUser.linkWithCredential(googleCredential);
+      return;
     } catch (error) {
       console.log(error);
     }

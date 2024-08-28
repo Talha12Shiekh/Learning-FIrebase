@@ -1,10 +1,4 @@
-import Main from "./LearningAuthentication/FacebookAuth";
-
-// import com.facebook.FacebookSdk;
-// import com.facebook.appevents.AppEventsLogger;
-
-
-
+import Main from "./LearningAuthentication/GithubAuth";
 
 export default function App() {
 
@@ -12,5 +6,11 @@ export default function App() {
     <Main/>
   );
 }
+
+// DPZzASFvv0xHwHAsw7DVsMVeX : key
+
+// VOe4YRn7BWOwghL4MUnh1L3Xsyb8iW0XoCjUItERy7bHLJUSJm : secret
+
+// https://firstclifirebaseproject.firebaseapp.com/__/auth/handler
 
 // https://firstclifirebaseproject.firebaseapp.com/__/auth/handler
