@@ -84,6 +84,7 @@ android {
         applicationId "com.learningfirebaserncli"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
+        manifestPlaceholders = [appAuthRedirectScheme: 'com.myapp.auth']
         versionCode 1
         versionName "1.0"
     }
