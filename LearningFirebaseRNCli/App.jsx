@@ -1,4 +1,4 @@
-import Main from "./LearningAuthentication/GithubAuth";
+import Main from "./LearningAuthentication/PhoneAuth";
 
 export default function App() {
 
