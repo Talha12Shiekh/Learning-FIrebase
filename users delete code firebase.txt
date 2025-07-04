@@ -1,0 +1,45 @@
+let intervalId;
+
+const deleteUsers = () => {
+  // Select all "three dots" buttons
+  const editButtons = document.querySelectorAll("[data-test-id='edit-account-button']");
+
+  // If no "three dots" buttons are found, clear the interval and stop the script
+  if (editButtons.length === 0) {
+    console.log("No more users to delete. Interval cleared.");
+    clearInterval(intervalId);
+    return;
+  }
+
+  // Click the first "three dots" button to open the menu
+  editButtons[0].click();
+
+  // Wait for the menu to open and find the "Delete" button
+  setTimeout(() => {
+    const menu = document.querySelector("[class='mat-mdc-menu-content']");
+    const deleteButton = menu?.querySelector("button:last-child"); // Last button is the "Delete" button
+
+    if (deleteButton) {
+      deleteButton.click(); // Click the "Delete" button
+
+      // Wait for the confirmation dialog and confirm deletion
+      setTimeout(() => {
+        const confirmButton = document.querySelector(
+          "button.confirm-button.mat-mdc-raised-button.mat-warn"
+        );
+
+        if (confirmButton) {
+          confirmButton.click(); // Click the "Delete" button in the confirmation dialog
+          console.log("User deleted.");
+        } else {
+          console.log("Confirmation button not found.");
+        }
+      }, 1000); // Wait for the confirmation dialog to load
+    } else {
+      console.log("Delete button not found in the menu.");
+    }
+  }, 500); // Wait for the menu to open
+};
+
+// Set an interval to repeatedly execute the function
+intervalId = setInterval(deleteUsers, 3000); // Adjust the interval as needed
